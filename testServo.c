@@ -11,10 +11,10 @@ void setup() {
 
 void loop() {
   // 從0~180度寫入測試最小角度與最大角度
-  for(int j = 0; j <= 180; j++) {
+  for(int j = 0; j <= 180; j+=5) {
     myservo.write(j);
     // 印出目前數值
     Serial.println(myservo.read());
-    delay(150);
+    delay(1000);
   }
 }
