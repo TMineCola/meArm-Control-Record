@@ -43,9 +43,9 @@ int maxSpeed = 10;
 int servoConfig[SERVOS][5] = {
     //JoystickPin, servoPin, minAngle, maxAngle, initialAngle
     {0, 11, 0, 180, 90}, //A0 L.X Base
-    {1, 9, 90, 160, 90}, //A1 L.Y Right
-    {2, 10, 20, 120, 40}, //A2 R.Y Left
-    {3, 5, 0, 50, 50} //A3 R.X Claw
+    {1, 9, 60, 160, 90}, //A1 L.Y Right
+    {2, 10, 40, 120, 40}, //A2 R.Y Left
+    {3, 5, 0, 60, 60} //A3 R.X Claw
 };
 
 Servo myservo[SERVOS];
